@@ -1,0 +1,90 @@
+body{
+  background-color:#f9f3ec;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  text-align: center;
+
+  font-family: 'Merriweather', serif;
+
+}
+h1
+{
+  position: relative;
+  margin:auto;
+  top:100px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+
+}
+h3
+{
+   margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.cloud
+{
+  position: absolute;
+  left:1100px;
+  width:250px;
+  height:120px;
+  top:0;
+}
+.bottom-cloud
+{
+position: absolute;
+width:250px;
+height:120px;
+left: 300px;
+top:300px;
+
+}
+.mountain{
+  position: relative;
+
+  height:300px;
+  width:500px;
+  top:152px;
+
+}
+.uppertext
+{
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top:100px;
+}
+
+.top-container
+{ height: 700px;
+  background-color:#f2f6f5;
+
+}
+.profile
+{
+  margin-top: 30px;
+  width:205px;
+  height:240px;
+}
+
+.middle-container
+{
+  background-color:#c8dad3;
+  height:400px;
+  width:100%;
+}
+.bottom-container
+{
+  background-color:#93b5b3;
+  height:500px;
+  padding-top:40px;
+  width:100%;
+}
+.contact-me
+{
+  padding-top: 30px;
+
+  background-color:#63707e ;
+  width:100%;
+  height:150px;
+  margin-bottom: 0;
+}
