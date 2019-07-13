@@ -1,0 +1,176 @@
+body {
+  background-color: #f9f3ec;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+/*general layout for mobile device */
+#top-container {
+    position: relative;
+
+    background-color: #f2f6f5;
+  }
+  .im-harsh {
+
+    margin:0 auto;
+
+    font-family: 'Sacramento', cursive;
+    font-size: 3.625em;
+  }
+.uppertext
+{
+  bottom:0px;
+  top:0px;
+  font-family: "Montserrat";
+  margin:0 auto ;
+}
+  .cloud {
+    position: absolute;
+    width: 28%;
+    height: 22%;
+    right: 9%;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    width: 28%;
+    height: 22%;
+    bottom:3em;
+  }
+
+
+  .mountain {
+    height: 35%;
+    width: 40%;
+  }
+
+  #middle-container {
+    background-color: #c8dad3;
+    margin: 0;
+
+  }
+  .profile {
+    margin-top: 30px;
+    width: 25%;
+    border-radius: 50%;
+  }
+  .middle-text{
+    font-size: 1.5em;
+    margin:0;
+    font-family: "Montserrat";
+  }
+
+  #bottom-container {
+
+    background-color: #93b5b3;
+
+
+    margin: 0 auto 0 auto;
+  }
+  .trekker {
+    float: left;
+  }
+
+  .globe {
+    float: right;
+    width:25%;
+    padding-right: 10px;
+  }
+  .bottom-text{
+    margin:0;
+    font-family: "Montserrat";
+  }
+  p
+  {
+    margin:0;
+  }
+
+  #contact-me {
+    padding-top: 30px;
+    background-color: #63707e;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .contact-me-text{
+    margin:0;
+    font-family: "Montserrat";
+  }
+  .instagram{
+    padding: 20px;
+  }
+/*general layout for tab device */
+  @media (min-width:900px)and (max-width:1150px){
+
+    .cloud {
+      position: absolute;
+      width: 25%;
+      height: 22%;
+      right: 9%;
+    }
+
+    .bottom-cloud {
+      position: absolute;
+      width: 25%;
+      height: 22%;
+      bottom:3em;
+    }
+    .mountain {
+      height: 25%;
+      width: 30%;
+    }
+    .profile {
+      margin-top: 30px;
+      width: 20%;
+      border-radius: 50%;
+    }
+
+    .globe {
+      float: right;
+      width:160px;
+      padding-right: 10px;
+      margin:auto;
+    }
+    #contact-me {
+      padding-top: 30px;
+      background-color: #63707e;
+      width: 100%;
+
+
+    }
+  .instagram{
+    padding: 20px;
+  }
+}
+/*general layout for desktop device */
+  @media(min-width:1150px){
+    .cloud {
+      position: absolute;
+      width: 17%;
+      height: 22%;
+      right: 9%;
+    }
+
+    .bottom-cloud {
+      position: absolute;
+      width: 20%;
+      height: 22%;
+      bottom:30%;
+    }
+    .mountain {
+      height: 22%;
+      width: 27%;
+    }
+    .profile {
+      margin-top: 30px;
+      width: 15%;
+      border-radius: 50%;
+    }
+    .globe {
+      position: relative;
+      bottom:30px;
+width: 150px;
+    }
+  }
